@@ -1,5 +1,83 @@
 {
   "url": {
     "base_url": ""
-  }
+  },
+  "menu": [
+    {
+      "name": "back",
+      "icon": "back",
+      "label": "退出",
+      "command": "goback"
+    },
+    {
+      "name": "map",
+      "icon": "map",
+      "label": "地图",
+      "command": "showMap"
+    },
+    {
+      "name": "layerTree",
+      "icon": "tree",
+      "label": "图层",
+      "command": "showLayerTree"
+    },
+    {
+      "name": "model",
+      "icon": "model",
+      "label": "模型",
+      "command": "showModel"
+    },
+    {
+      "name": "settings",
+      "icon": "settings",
+      "label": "设置",
+      "command": "showSettings"
+    }
+  ],
+  "maps": [
+    {
+      "label": "数图科技",
+      "name": "gaea",
+      "styleList": [{ "label": "反色地图", "value": "fs" }]
+    },
+    {
+      "label": "谷歌",
+      "name": "google",
+      "styleList": [{ "label": "地形图", "value": "ter" }]
+    },
+    {
+      "label": "百度",
+      "name": "baidu",
+      "styleList": [
+        { "label": "午夜蓝地图", "value": "midnight" },
+        { "label": "黑色地图", "value": "dark" }
+      ]
+    },
+    {
+      "label": "腾讯",
+      "name": "tencent",
+      "styleList": []
+    },
+    {
+      "label": "高德",
+      "name": "amap",
+      "styleList": []
+    },
+    {
+      "label": "天地图",
+      "name": "tdt",
+      "styleList": [{ "label": "地形图", "value": "ter" }]
+    },
+    { "label": "Arcgis", "name": "arcgis" },
+    { "label": "Mapbox", "name": "mapbox" },
+    { "label": "自定义", "name": "xyz" },
+    { "label": "单图片", "name": "single" }
+  ],
+  "layerTypes": [
+    { "label": "矢量图层", "value": "vector" },
+    { "label": "3dTiles图层", "value": "tileset" },
+    { "label": "GeoJson图层", "value": "geojson" },
+    { "label": "Czml图层", "value": "czml" },
+    { "label": "Kml图层", "value": "kml" }
+  ]
 }

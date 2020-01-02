@@ -29,7 +29,9 @@ module.exports = {
     Hub: false,
     echarts: false,
     axios: false,
-    '%=': false
+    '%=': false,
+    DE: false,
+    Cesium: false
   },
   parserOptions: {
     parser: 'babel-eslint'

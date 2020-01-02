@@ -17,7 +17,6 @@ export default {
   position: relative;
   background: #fff;
   margin: 10px 0;
-  padding: 10px 10px;
-  height: calc(100% - 150px);
+  height: calc(100% - 120px);
 }
 </style>

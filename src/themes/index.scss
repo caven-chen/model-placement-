@@ -11,3 +11,33 @@ body {
   height: 100%;
   overflow: hidden;
 }
+
+.ipt,
+.select {
+  .el-input__inner {
+    height: 30.5px;
+    line-height: 30.5px;
+  }
+}
+
+.search-form {
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+  .ipt {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .select {
+    width: 80px;
+    margin-right: 10px;
+    .el-select__caret.el-input__icon {
+      line-height: 30.5px;
+    }
+  }
+}
+
+.el-button--warning {
+  background-color: #ffba00;
+  border-color: #ffba00;
+}
